@@ -18,7 +18,7 @@ else{
 }
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
+var amysAge = 29 
 var brittanisAge = 34
 var amysBirthYear = 1991
 var brittanisBirthYear = 1986
@@ -30,6 +30,15 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+if (amysAge == brittanisAge){
+  console.log("Amy and Brittani are of same age")
+}
+else if (amysAge < brittanisAge){
+  console.log(`Amy is ${amysAge} year old and is younger than Brittani`)
+} else {
+  console.log(`Amy is ${amysAge} year old and is older than Britttani`)
+} 
+
 
 
 ////////// PROBLEM 3 //////////
@@ -39,6 +48,11 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+if (amysBirthYear != brittanisBirthYear){
+  console.log(`Amy and Brittani were not born in the same year`)
+} else{
+  console.log(`Amy and Brittani were born in the same year`)
+}
 
 
 ////////// PROBLEM 4 //////////
