@@ -89,6 +89,7 @@ for (let i = 0; i <10; i++){
 //CODE HERE
 
 
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -96,9 +97,12 @@ for (let i = 0; i <10; i++){
 */
 
 //CODE HERE
+var num = [1,2,3,4,5,6,7,8,9,10]
+for(i =num.length; i >0; i--)
+console.log(i)
 
-let score = 0
-let passingScore = 7
+//let score = 0
+//let passingScore = 7
 
 ////////// PROBLEM 8 //////////
 
